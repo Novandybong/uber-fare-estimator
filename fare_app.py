@@ -14,7 +14,7 @@ def load_ml_model(model_file):
 def load_scaler(scaler_file):
     scaler = joblib.load(open(scaler_file, 'rb'))
     return scaler
-@st.cache
+@st.cache_data
 def fare_app():
     st.subheader("Where to today?")
     st.write("Click on the map to choose your origin and destined location. Click the marker again to copy the coordinates and paste it below. Double click on the marker to delete it.")
