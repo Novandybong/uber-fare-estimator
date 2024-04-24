@@ -9,7 +9,7 @@ import os
 import folium
 from streamlit_folium import st_folium
 
-@st.cache_data
+@st.cache
 def load_ml_model(model_file):
     loaded_model = joblib.load(open(os.path.join(model_file),'rb'))
     return loaded_model
