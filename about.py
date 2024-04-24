@@ -13,6 +13,8 @@ about = """
         data from previous trips to identify patterns and trends. 
         The prediction model was trained and tuned to give the most 
         accurate and reliable fare results.
+
+        Dataset used is provided by [Kaggle](https://www.kaggle.com/datasets/yasserh/uber-fares-dataset/data).
         """
 
 creator ="""
