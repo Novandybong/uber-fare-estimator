@@ -7,7 +7,7 @@ from fare_app import fare_app
 
 heading = """
             <div style="padding: 20px; border-radius: 10px;background-color:#ADB5BD">
-            <h1 style="color:white ;font-family:sans-serif;margin:0"> Uber Fare Estimate (NYC Area) </h1>
+            <h1 style="color:white ;font-family:sans-serif;margin:0"> Uber Fare Prediction (NYC Area) </h1>
             """
 
 def main():
